@@ -23,7 +23,7 @@ This project addresses the need for structured analysis of hospital admission da
 
 ```bash
 # Clone the repo
-git clone https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-Jineen-Hourani
+git clone https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-Jineen-Hourani.git
 cd m1-l1-git-workflows-Jineen-Hourani
 
 # Create and activate venv
@@ -33,5 +33,7 @@ source .venv/Scripts/activate        # For Git Bash on Windows
 # Install dependencies
 pip install -r requirements.txt
 
+# git checkout
+git checkout integration/collab-setup
 # Verify setup
 ./setup.sh
