@@ -1,41 +1,39 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FdVrU54p)
-# [Project Title — e.g., Hospital Admission Records Analysis]
+# Hospital Admission Records Analysis
 
-> **Lab 1 starter repo** — Replace the heading above with your project title. Team member names are not part of the lab — they go in Section 2 of your completed README in the integration task.
-
----
-
-## Project Overview
-
-TODO: Write 2–3 sentences describing what this project does and who it is for.
+> A technical project to analyze hospital admission trends and ensure reproducible data science environments.
 
 ---
 
-## Setup Instructions
+## Project Purpose
+This project addresses the need for structured analysis of hospital admission data. A reproducible environment is critical here to ensure that health data analysis is consistent across different researchers' machines, preventing "it works on my machine" errors in a healthcare context.
 
-TODO: Complete these setup steps after creating your `requirements.txt`:
+---
+
+## Tech Stack
+
+| Tool / Package | Version | Purpose |
+|---|---|---|
+| Python | 3.11 | Primary language |
+| pandas | 3.0.1 | Data manipulation and analysis |
+| matplotlib | 3.10.8 | Data visualization |
+
+---
+
+## Environment Setup
 
 ```bash
+# Clone the repo
+git clone https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-Jineen-Hourani.git
+cd m1-l1-git-workflows-Jineen-Hourani
+
+# Create and activate venv
 python -m venv .venv
+source .venv/Scripts/activate        # For Git Bash on Windows
 
-# Activate — choose the command for your OS:
-# Mac / Linux:      source .venv/bin/activate
-# Windows Git Bash: source .venv/Scripts/activate
-# Windows CMD:      .venv\Scripts\activate.bat
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-
+# Install dependencies
 pip install -r requirements.txt
-python test_environment.py    # should print "Environment OK"
-```
 
----
-
-## Contributing
-
-- Branch naming: `setup/`, `feature/`, `fix/`
-- Open a PR to `main` for all changes
-- Commit messages: imperative mood, ≤ 50 characters
-
----
-
-*Starter file for Lab 1 — lab-1-git-workflows | aispire-14005*
+# git checkout
+git checkout integration/collab-setup
+# Verify setup
+./setup.sh

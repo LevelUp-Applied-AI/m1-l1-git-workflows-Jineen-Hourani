@@ -1,4 +1,5 @@
-# Add required packages here (one per line)
-# Example:
-#   pandas
-#   matplotlib
+
+pandas
+matplotlib
+
+pytest
